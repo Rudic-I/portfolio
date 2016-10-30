@@ -1,0 +1,158 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	font-family: Arial;
+}
+
+header {
+	background-image: url("background.jpg");
+	background-size: contain;
+	text-align: center;
+	width: 100%;
+	opacity: 0.8;
+}
+
+header section, nav {
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+i {
+	color: black;
+	font-size: 25px!important;
+	margin: 5px 5px 0px 5px;
+}
+
+nav ul li {
+	display: inline-block;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 0px 10px;
+	border: 2px solid black;
+	border-radius: 3px;
+	width: 150px;
+}
+
+nav ul li:hover{
+	background-color: black;
+	color: white;
+}
+
+#applications {
+	width: 90%;
+	margin: 50px auto;
+}
+
+#applications article {
+	width: 45%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#applications h2 {
+	margin-bottom: 50px;
+	border-bottom: 2px solid black;
+}
+
+#applications h3 {
+	margin-bottom: 20px;
+	padding-left: 10px;
+	border-left: 4px solid #a49888;
+}
+
+#applications h3 a {
+	color: black;
+	font-size: 30px;
+}
+
+#applications h4 {
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+#applications p {
+	padding: 5px 0px;
+}
+
+#weather-forecast {
+	float: left;
+}
+
+#loto {
+	float: right;
+}
+
+#websites {
+	width: 90%;
+	margin: 50px auto;
+}
+
+#websites article {
+	display: inline-block;
+	width: 45%;
+	margin-bottom: 80px;
+}
+
+#websites h2 {
+	margin-bottom: 50px;
+	border-bottom: 2px solid black;
+}
+
+#websites h3 {
+	margin-bottom: 20px;
+	padding-left: 10px;
+	border-left: 4px solid #a49888;
+}
+
+#websites h3 a {
+	font-size: 30px;
+	color: black;
+}
+
+#websites h4 {
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+#websites p {
+	padding: 5px 0px;
+}
+
+#startup-turkey, #healthcoach {
+	float: right;
+}
+
+footer {
+	text-align: center;
+	font-size: 17px;
+	background-color: #a49888;
+	padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	#applications article, #websites article {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+}
