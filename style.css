@@ -138,6 +138,10 @@ nav ul li:hover{
 	padding: 5px 0px;
 }
 
+#lila {
+	vertical-align: top;
+}
+
 #minimal {
 	float: right;
 }
